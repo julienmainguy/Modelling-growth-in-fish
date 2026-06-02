@@ -98,9 +98,9 @@ Summarize(age ~ 1, data = RuffeSLRH92)
 ## function, i.e. VB_fun(), is defined using "FSA".
 
 VB_fun <- makeGrowthFun(type = "von Bertalanffy")
-## GZ_fun <- makeGrowthFun(type = "Gompertz")       ## shown but not used below (too repetitive)
-## LG_fun <- makeGrowthFun(type = "logistic")       ## shown but not used below (too repetitive)
-## RG_fun <- makeGrowthFun(type = "Richard")
+## GZ_fun <- makeGrowthFun(type = "Gompertz")       ## shown but not used below
+## LG_fun <- makeGrowthFun(type = "logistic")       ## shown but not used below
+RG_fun <- makeGrowthFun(type = "Richard")
 
 
 ## Starting values for the VBGM and RGM are first estimated and stored in the objects *sv_bdm_VB* and *sv_bdm_RG*, respectively, with the same step 
