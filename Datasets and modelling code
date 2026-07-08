@@ -620,6 +620,7 @@ model.sel(m_TROUT_ALT, m_TROUT_LAKE, rank = BIC)
 emm_TROUT_LAKE <- emmeans(m_TROUT_LAKE, "LAKE")
 pairs(emm_TROUT_LAKE)
 
+
 ## Statistical support is found to indicate that female lake trout from LAKE *A* exhibit a lower growth than those of LAKE *B* and *C*, the latters
 ## having instead similar growth curves from a statistical standpoint. 
 
