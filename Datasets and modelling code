@@ -92,7 +92,7 @@ Summarize(age ~ 1, data = RuffeSLRH92)
 ## is shown below given that it is associated with a small sample size and thus, requires less computational time for demonstrative purposes.
 
 
-############################## COMMONLY-USED GROWTH MODELS (VON BERTALANFFY, GOMPERTZ, AND LOGISTIC) #########################################
+######################### COMMONLY-USED GROWTH MODELS (VON BERTALANFFY, GOMPERTZ, LOGISTIC, AND RICHARDS) #########################################
 
 ## Application of the VBGM, with the Gompertz and logistic growth models following the same approach. First, the von Bertalanffy growth
 ## function, i.e. VB_fun(), is defined using "FSA".
