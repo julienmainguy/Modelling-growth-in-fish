@@ -140,8 +140,8 @@ summary(m_bdm_RG, correlation = TRUE)
 ## MODEL ADEQUACY
 
 ## Check the adequacy of *m_bdm_VB* with newly-available helper functions for the "hnp" package. A general Growth Function (GF) must first be created
-## and is identically used for the VBGM, GGM, and LGM. But first, the (i) model, (ii) specific growth function, and (iii) dataset are defined for their
-## use with the associated code. Note that all the code rely on the information provided for (i), (ii), and (iii).
+## and is identically used for the VBGM, GGM, LGM, and RGM. But first, the (i) model, (ii) specific growth function, and (iii) dataset are defined for 
+## their use with the associated code. Note that all the code rely on the information provided for (i), (ii), and (iii).
 
 model <- m_bdm_VB          ## change for *m_bdm_RG* to test the RGM
 growth_fun <- VB_fun       ## change for *RG_fun* to test RGM 
