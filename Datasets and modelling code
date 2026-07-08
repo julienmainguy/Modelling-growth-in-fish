@@ -316,7 +316,7 @@ logLik <- logLik(m_bdm_VB)
 
 ## Comparison relying on an information-theoretic approach based on the Bayesian Information Criterion (BIC)
 
-## BIC(m_bdm_VB, m_bdm_GZ, m_bdm_LG, m_bdm_RG)                                                   ## once the GGM, LGM, and RGM have also been fitted
+## BIC(m_bdm_VB, m_bdm_GZ, m_bdm_LG, m_bdm_RG)                                                   ## once the GGM and LGM have also been fitted
 
 
 ## PREDICTED VALUES
