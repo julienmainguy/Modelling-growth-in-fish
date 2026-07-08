@@ -158,7 +158,7 @@ GF <- function(formula, start, data) {
 
 
 ## The growth models being assessed for its adequacy, here *m_bdm_VB* and *m_bdm_RG*, are refitted as the *original_model* with the just-created
-## GF() function and the specific one for the investigated growth model, here VB_fun() and RG_fun(), which has already been previously defined. 
+## GF() function and the specific one for the investigated growth model, here VB_fun() and RG_fun(), which have already been previously defined. 
 ## Note that how the variables *LENGTH* and *AGE* are referred in the dataset must be indicated in an identical manner in the code, here with
 ## *tl* and *otoage*, respectively.
 
