@@ -493,7 +493,7 @@ model <- m_bdm_SCAM_GAMMA
 (D2 <- 100 * (1 - model$deviance / model$null.deviance))          # should match the value provided under "Deviance explained" in the model output
 
 
-## Note that the adjusted R2 provided in the scam() function output (i.e.,*R-sq.(adj)*) is only valid for the Gaussiance case If one needs to 
+## Note that the adjusted R2 provided in the scam() function output (i.e.,*R-sq.(adj)*) is only valid for the Gaussiance case. If one needs to 
 ## penalize (i.e. adjust) D2 for model complexity to yield an adjusted D2 (D2_adj), the proposed adjustement by Guisan and Zimmermann (2000) should
 ## be used, as presented in Mainguy et al. (2026) for GAMs, such that D2_adj < D2 in all instances.
 
