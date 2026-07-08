@@ -596,7 +596,7 @@ m_TROUT_LAKE <- scam(TL ~ LAKE + s(AGE, bs = "micv"),
 summary(m_TROUT_LAKE)
 
 
-## Fit an alternative (*_ALT*) model for which the fixed LAKE effect is excluded for comparative purposes (i.e., evaluate the importance of the AGE effect)
+## Fit an alternative (*_ALT*) model for which the fixed LAKE effect is excluded for comparative purposes (i.e., evaluate its importance)
 
 m_TROUT_ALT <- scam(TL ~ 1 + s(AGE, bs = "micv"),
                     family = Gamma(link = "log"),
