@@ -94,8 +94,9 @@ Summarize(age ~ 1, data = RuffeSLRH92)
 
 ######################### COMMONLY-USED GROWTH MODELS (VON BERTALANFFY, GOMPERTZ, LOGISTIC, AND RICHARDS) #########################################
 
-## Application of the VBGM, with the Gompertz and logistic growth models following the same approach. First, the von Bertalanffy growth
-## function, i.e. VB_fun(), is defined using "FSA".
+## Application of the VBGM, with the Gompertz, logistic, and Richards growth models following the same approach. First, the von Bertalanffy growth
+## function, i.e. VB_fun(), is defined using "FSA", as for the other growth function (Gompertz = GZ_fun(), logistic = LG_fun(), and Richards = RG_fun()),
+## but only the RG_fun() will be used below together with the VB_fun() given that the different growth models are alike to save space.
 
 VB_fun <- makeGrowthFun(type = "von Bertalanffy")
 ## GZ_fun <- makeGrowthFun(type = "Gompertz")       ## shown but not used below
